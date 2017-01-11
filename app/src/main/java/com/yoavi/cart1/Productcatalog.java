@@ -8,11 +8,11 @@ import android.support.v7.widget.RecyclerView;
 
 public class Productcatalog extends AppCompatActivity{
 
-    RecyclerView recyclerView;
-    RecyclerView.LayoutManager layoutManager;
-    RecyclerView.Adapter adapter;
-    public String[] Title;
-    public String[] Detail;
+    private RecyclerView recyclerView;
+    private RecyclerView.LayoutManager layoutManager;
+    private RecyclerView.Adapter adapter;
+    private String[] Title;
+    private String[] Detail;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
